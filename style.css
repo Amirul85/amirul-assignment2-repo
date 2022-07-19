@@ -19,11 +19,14 @@ body {
     gap: 30px;
     padding-left: 30px;
     padding-right: 20px;
-
 }
 
 h1 {
     font-size: 80px;
+}
+
+h4 {
+    color: black
 }
 
 p {
@@ -35,10 +38,67 @@ p {
     height: 500px;
 }
 
-#play-button {
+.play-button {
     background-color: red;
     color: white;
     padding: 7px;
     border-radius: 5px;
     gap: 10px;
+}
+
+/* middle part of body */
+.middle-part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    color: white;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 30px;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+/* mid part button field */
+.one-three {
+    width: 85%;
+    height: 25%;
+    background-color: black;
+    border: 6px;
+    border-radius: 5px;
+}
+
+.video-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px;
+    gap: 20px;
+}
+
+.thumbnail {
+    border: 1px solid rgb(214, 214, 213);
+    border-radius: 10px;
+}
+
+.button-size {
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: 4px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.duration-massage {
+    display: flex;
+    color: black;
+    gap: 40px;
 }
