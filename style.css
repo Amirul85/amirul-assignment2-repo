@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* top banner style */
+
+.banner-contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+
+}
