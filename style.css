@@ -7,11 +7,38 @@ body {
 /* top banner style */
 
 .banner-contain {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     background-color: black;
     color: white;
-    margin: 20px;
-    padding: 10px;
+    border: 2px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
 
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: small;
+}
+
+.banner-contain img {
+    width: 400px;
+    height: 500px;
+}
+
+#play-button {
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    gap: 10px;
 }
