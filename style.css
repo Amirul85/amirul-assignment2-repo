@@ -25,6 +25,17 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    color: rgb(197, 197, 197);
+}
+
 h4 {
     color: black
 }
@@ -66,7 +77,8 @@ p {
 /* mid part button field */
 .one-three {
     width: 85%;
-    height: 25%;
+    height: 17%;
+    text-align: center;
     background-color: black;
     border: 6px;
     border-radius: 5px;
@@ -84,10 +96,14 @@ p {
     border-radius: 10px;
 }
 
+.margin-add {
+    margin: 20px;
+    border: 20px;
+}
+
 .button-size {
     width: 140px;
-    height: 35px;
-    text-align: center;
+    height: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 6px;
@@ -101,4 +117,19 @@ p {
     display: flex;
     color: black;
     gap: 40px;
+}
+
+.finish-line {
+    height: 250px;
+    background-color: black;
+}
+
+.footer-part {
+    text-align: center;
+}
+
+.block-line {
+    display: inline;
+    color: aliceblue;
+    margin: 20px;
 }
