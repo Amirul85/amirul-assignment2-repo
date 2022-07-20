@@ -31,6 +31,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: black;
+}
+
 hr {
     width: 80%;
     color: rgb(197, 197, 197);
@@ -38,6 +42,10 @@ hr {
 
 h4 {
     color: black
+}
+
+h6 {
+    color: black;
 }
 
 p {
@@ -85,7 +93,18 @@ p {
     position: left;
 }
 
-.video-part {
+.three-four {
+    display: grid;
+    idth: 87%;
+    height: 13%;
+    text-align: center;
+    background-color: black;
+    border: 6px;
+    border-radius: 10px;
+    position: left;
+}
+
+.flag-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 1px;
@@ -93,6 +112,7 @@ p {
 }
 
 .thumbnail {
+    display: grid;
     border: 1px solid rgb(214, 214, 213);
     border-radius: 10px;
 }
