@@ -114,13 +114,17 @@ p {
 }
 
 .duration-massage {
+    width: 100%;
+    height: 100%;
     display: flex;
     color: black;
-    gap: 40px;
+    margin: 5px;
+    gap: 20px;
+
 }
 
 .finish-line {
-    height: 250px;
+    height: 350px;
     background-color: black;
 }
 
