@@ -4,6 +4,24 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    color: black
+}
+
+p {
+    font-size: small;
+}
+
 /* top banner style */
 
 .banner-contain {
@@ -21,35 +39,9 @@ body {
     padding-right: 20px;
 }
 
-h1 {
-    font-size: 80px;
-}
-
-h2 {
-    font-size: 70px;
-    color: white;
-    text-align: center;
-}
-
-h3 {
-    color: black;
-}
-
 hr {
     width: 80%;
     color: rgb(197, 197, 197);
-}
-
-h4 {
-    color: black
-}
-
-h6 {
-    color: black;
-}
-
-p {
-    font-size: small;
 }
 
 .banner-contain img {
@@ -68,53 +60,58 @@ p {
 /* middle part of body */
 .middle-part {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     background-color: white;
     color: white;
     border: 2px;
     border-radius: 20px;
-    margin-top: 70px;
-    margin-bottom: 30px;
-    margin-right: 60px;
-    margin-left: 30px;
-    gap: 30px;
+    margin: 20px;
+    gap: 10px;
     padding-left: 30px;
     padding-right: 20px;
 }
 
 /* mid part button field */
 .one-three {
-    width: 87%;
-    height: 13%;
+    width: 120%;
+    height: 30%;
     text-align: center;
     background-color: black;
-    border: 6px;
+    border: 5px;
     border-radius: 10px;
-    position: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 45px;
 }
 
-.three-four {
-    display: grid;
-    idth: 87%;
-    height: 13%;
-    text-align: center;
-    background-color: black;
-    border: 6px;
-    border-radius: 10px;
-    position: left;
-}
-
-.flag-part {
+.video-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border: 1px;
+    border: 2px;
     gap: 20px;
+    margin: 30px;
 }
 
 .thumbnail {
-    display: grid;
     border: 1px solid rgb(214, 214, 213);
     border-radius: 10px;
+}
+
+.two-flag {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+.text-position {
+    text-align: center;
+}
+
+.April-1 {
+    color: black;
+    text-align: center;
 }
 
 .margin-add {
@@ -124,14 +121,11 @@ p {
 
 .button-size {
     width: 80%;
-    height: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    margin-right: 6px;
-    border: 1px;
+    height: 30%;
+    margin: 8px;
+    border: 2px;
     border-radius: 3px;
-    padding: 8px;
+    padding: 6px;
 }
 
 .icon-add {
@@ -143,6 +137,8 @@ p {
 
 }
 
+
+
 .duration-massage {
     width: 100%;
     height: 100%;
@@ -152,6 +148,11 @@ p {
     margin: 5px;
     gap: 2px;
 
+}
+
+a {
+    text-decoration: none;
+    text-justify: auto;
 }
 
 .finish-line {
